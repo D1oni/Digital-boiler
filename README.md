@@ -34,12 +34,14 @@ This project is a prototype IoT heating controller built around an ESP32. It rea
 - HTML/CSS dashboard (web UI)
 
 ## Repository Structure
+```
 Digital-boiler/
-├── database/ # MySQL schema (tables and relations)
-├── esp32/ # ESP32 firmware (Arduino sketch)
-├── web/ # PHP backend endpoints and web dashboard
+├── database/   # MySQL schema (tables and relations)
+├── esp32/      # ESP32 firmware (Arduino sketch)
+├── web/        # PHP backend endpoints and web dashboard
 ├── LICENSE
 └── README.md
+```
 
 ## How It Works
 - **ESP32** reads sensors and performs thermostat control locally.
